@@ -2,7 +2,7 @@ cd ~/Downloads
 echo 'installing Homebrew'
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-echo 'add HomeBrew to PATH'
+echo 'add homebrew to PATH'
 echo 'PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 brew update && sudo brew upgrade
@@ -29,7 +29,7 @@ brew install visual-studio-code
 echo 'installing docker'
 brew install docker
 
-echo 'installing dockerr-compose'
+echo 'installing docker-compose'
 brew install docker-compose
 
 echo 'installing make'
