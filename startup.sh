@@ -5,7 +5,7 @@ echo 'installing Homebrew'
 echo 'add homebrew to PATH'
 echo 'PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
-brew update && sudo brew upgrade
+brew update && brew upgrade
 
 echo 'installing zsh'
 brew install zsh
