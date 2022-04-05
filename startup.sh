@@ -27,7 +27,7 @@ echo 'ínstalling vscode'
 brew install visual-studio-code
 
 echo 'installing docker'
-brew install docker
+brew install --cask docker
 
 echo 'installing docker-compose'
 brew install docker-compose
