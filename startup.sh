@@ -34,3 +34,9 @@ brew install docker-compose
 
 echo 'installing make'
 brew install make
+
+echo 'installing zoom'
+brew install --cask zoom
+
+echo 'installing skype'
+brew install --cask skype
