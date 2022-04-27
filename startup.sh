@@ -40,3 +40,6 @@ brew install --cask zoom
 
 echo 'installing skype'
 brew install --cask skype
+
+echo 'installing postman'
+brew install postman
