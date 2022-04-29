@@ -43,3 +43,6 @@ brew install --cask skype
 
 echo 'installing postman'
 brew install postman
+
+echo 'generating ssh keys'
+ssh-keygen -t rsa
